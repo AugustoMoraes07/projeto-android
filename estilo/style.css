@@ -28,9 +28,11 @@
 }
 
 body{
-    background-color:var(--cor00);
     font-family: var(--fonte-padrao);
     
+    background: var(--cor00) url(/pacote-projeto-d010/imagens/fundo.png) center round scroll;
+    background-size: 700px;
+
 }
 a.externo::after{
     content: '\1F517';
